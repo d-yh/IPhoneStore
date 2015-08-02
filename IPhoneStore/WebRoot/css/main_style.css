@@ -1,0 +1,23 @@
+body{
+	/* font-family: Georgia, serif; */
+}
+
+#top{
+	background-color: white;
+	margin-right: -120px;
+    margin-left: -120px;
+}
+
+div.logo{
+	padding-top: 5px;
+	padding-bottom: -1px;
+}
+
+img{
+	margin-top: -7px;
+	margin-left: 150px;
+}
+
+a{
+	font-size: 10px;
+}
