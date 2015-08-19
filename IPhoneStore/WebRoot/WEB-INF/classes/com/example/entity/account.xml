@@ -1,0 +1,15 @@
+<!DOCTYPE hibernate-mapping PUBLIC
+"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping package="com.example.entity">
+	<class name="Account" optimistic-lock="version">
+		<id name="id" column="Id">
+		</id>
+		<version name="version" type="java.lang.Integer"/> 
+		<property name="name" column="Name" type="string" unique="true"></property>		
+		<property name="password" column="Password" type="string"></property>
+		<property name="phoneNumber" column="PhoneNumber" type="string"></property>
+		<property name="address" column="Address" type="string"></property> 
+		<property name="signTime" column="SignTime" type="date"></property>
+	</class>
+</hibernate-mapping>
